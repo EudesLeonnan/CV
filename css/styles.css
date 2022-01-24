@@ -1,39 +1,95 @@
 /************************** TAG SELECTORS **************************/
 
 body {
-         background-color:  #041C32;
-    }
-img:hover {
-    background-color: orange;
-}    
-hr {
-    border-color: #ECB365;
-    border-style: dotted none none;
-    border-width: 5px;
-    height: 0px;
-    width: 10%;
-    }
-h3 {
-    color: white;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 0 0;
 }
-h1 {
-    color: white;
+
+hr { border: dotted coral 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 10px auto;
 }
-p {
-    color: rgb(218, 224, 192);
+h2 {
+    text-align: center; 
+    color: aliceblue;   
+}
+h4 {
+ 
+    color: aliceblue;   
 }
 
 /************************** CLASS SELECTORS **************************/
-
-.cinza {
-    color: rgb(218, 224, 192);
-}
-.largura {
-    width: 50%;
+.topo {
+    background-color: coral;
+    
 }
 
+.principal {
+    background-color: #0d2b7b;
+}
+.textcont2 {
+    background-color: #1f3a85;   
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: rgb(165, 165, 159);
+    height: 490px;
+    
+   
+}
+
+.baixoprincipal {
+    background-color: darkgray;
+   
+}
 
 /************************** ID SELECTORS **************************/
-#titulo {
-    color: #ECB365;
+
+#top {
+    background-color: coral;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 200px 0 200px;
+    text-align: center;
+      
+}
+
+#logo {
+     width: 100%;
+     
+     margin-right: 0px;
+     margin-top: 10px;
+}
+     
+#foto {
+        width: 35%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 0px;
+}
+
+#conteudo1 {
+    background-color: #0d2b7b;
+    margin: 0 200px 0 200px;
+    
+}
+#conteudo2 {
+        background-color: #0d2b7b;
+        margin: 0 200px 0 200px;
+        text-align: center;
+        
+}
+#conteudo3 {
+            background-color: #0d2b7b;
+            margin: 0 200px 0 200px;
+            text-align: center;
+        
+}
+
+#baixo {    
+    background-color: darkgray;
+    height: 200px;
+    margin: 0 200px 0 200px;
 }
